@@ -5,9 +5,9 @@
 <ul>
   <li>Beginner:<br>
   https://helion.pl/ksiazki/frontend-developer-kurs-video-html-i-css-poziom-podstawowy-radoslaw-madecki,vpohtm.htm#format/w
-  </li>  
+  </li><br>  
   <li>
   Intermediate:<br>
   https://helion.pl/ksiazki/frontend-developer-kurs-video-html-i-css-poziom-srednio-zaawansowany-radoslaw-madecki,vfrond.htm#format/w
-  </li>
+  </li><br>
 </ul>
