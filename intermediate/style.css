@@ -1,0 +1,122 @@
+@import "../reset.css";
+@import "https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,600&display=swap";
+@import "animations.css";
+
+:root {
+    --window-green: #2A5F63
+}
+
+body {
+    background-image: url("../images/landing-page-full.png") ;
+    background-size: cover;
+    font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+.container {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.btn {
+    padding: 13px 17px;
+    border: 0;
+    border-radius: 20px;
+    color: var(--window-green);
+    background-color: white;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgba(105, 105, 105, 0.1);
+}
+
+.btn--nav {
+    position: relative;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    right: -370px;
+    padding: 10px;
+    width: 130px;
+    height: 50px;
+    transition: right ease-in-out .5s;
+}
+
+.btn--nav:hover {
+    right: -400px;
+}
+
+.btn--nav img {
+    height: 60%;
+}
+
+nav {
+    margin-top: 28px;
+}
+
+nav .container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.nav__links {
+    display: flex;
+    justify-content: space-between;
+    width: 28.75%;
+    margin-left: 10.8%;
+}
+
+.nav__links a {
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    transition: .5s all;
+}
+
+.nav__links a:hover {
+    transform: scale(1.2);
+    text-shadow: 10px 10px 10px black;
+}
+
+.nav__links a.active {
+    font-weight: 700;
+    color: var(--window-green);
+
+}
+
+.landing-page {
+    height: 100vh;
+    margin-top: 30px;
+}
+
+.landing-page h1 {
+    position: relative;
+    margin: 0 10%;
+    width: 80%;
+    font-size: 70px;
+    color: #3b3b3b;
+    text-align: center;
+    animation-duration: 4s;
+    animation-name: slide-in-half-top-faded;
+}
+
+.landing-page p {
+    position: relative;
+    width: 50%;
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 160%;
+    animation-duration: 4s;
+    animation-name: slide-in-left-faded;
+}
+
+.landing-page .btn {
+    position: relative;
+    animation-duration: 2s;
+    animation-name: slide-in-half-bottom;
+}
